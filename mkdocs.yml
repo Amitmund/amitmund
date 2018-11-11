@@ -3,7 +3,7 @@ repo_url: https://github.com/Amitmund/amitmund/
 site_description: Notes of my learning.
 site_author: Amit Kumar Mund
 
-nav:
+pages:
   - Home: index.md
   - ReadTheDoc: readTheDoc.md
   - Linux: linux.md
@@ -18,7 +18,7 @@ markdown_extensions:
   - fenced_code
  
 theme:
-    name: material
+    name: readthedocs
     highlightjs: true
     hljs_languages:
         - yaml
