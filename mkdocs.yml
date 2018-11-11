@@ -6,6 +6,6 @@ nav:
         - Linux Commands: linuxCommands.md
             - iptables: iptables.md
     - Cassandra: cassandra.md
-        - Cassandra Interview Related Questions: cassandraInterviewQuestions
+        - Cassandra Interview Related Questions: cassandraInterviewQuestions.md
     - About: about.md
 theme: readthedocs
