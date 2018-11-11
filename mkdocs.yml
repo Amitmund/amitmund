@@ -8,7 +8,7 @@ pages:
   - ReadTheDoc: readTheDoc.md
   - Linux: linux.md
   - iptables: iptables.md
-  - CassandraIntroduction:cassandra.md
+  - Cassandra Introduction: cassandra.md
   - About: about.md
   
 markdown_extensions:
