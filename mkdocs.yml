@@ -5,16 +5,19 @@ site_author: Amit Kumar Mund
 
 pages:
   - Home: index.md
-  - ReadTheDoc: markdown/readTheDoc.md
+
   - Linux:
     - iptables: linux/iptables.md
+    - tcpdump: linux/tcpdump.md
   - Cassandra:
     - Introduction: cassandra/cassandra.md
   - Consul:
     - Consul notes: consul/consul.md
   - Git:
     - Git notes: git/git.md
-  - Md file example: markdown/mdFileExample.md
+  - ReadTheDocRelated:
+    - Notes on readthedoc: markdown/readTheDoc.md
+    - Example of Markdown: markdown/mdFileExample.md
   - About: about.md
   
 markdown_extensions:
