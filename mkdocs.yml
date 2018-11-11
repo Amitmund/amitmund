@@ -27,11 +27,14 @@ markdown_extensions:
   - fenced_code
  
 theme:
-    name: readthedocs
+    name: rtd-dropdown
     highlightjs: true
     hljs_languages:
         - yaml
         - django
-
+        
 extra_css:
     - css/extra.css
+
+plugins:
+    - search
