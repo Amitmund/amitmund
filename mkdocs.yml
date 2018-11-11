@@ -3,5 +3,18 @@ repo_url: https://github.com/Amitmund/amitmund/
 site_description: Notes of my learning.
 site_author: Amit Kumar Mund
 
+nav:
+  - Home: index.md
+  - ReadTheDoc: readTheDoc.md
+  - Linux: linux.md
+  - iptables: iptables.md
+  - Cassandra introduction:cassandra.md
+  - About: about.md
+  
+markdown_extensions:
+  - codehilite
+  - extra
+  - tables
+  - fenced_code
  
 theme: readthedocs
