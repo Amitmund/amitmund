@@ -8,7 +8,8 @@
   
 ### Prerequisites
 The latest version of Java 8, either the `Oracle Java Standard Edition 8` or `OpenJDK 8`. To verify that you have the correct version of java installed, type `java -version`.
-> java -version
-
+```yaml
+java -version
+```
 For using `cqlsh`, the latest version of `Python 2.7`. To verify that you have the correct version of Python installed, type `python --version`.
-> python --version
+`python --version`
