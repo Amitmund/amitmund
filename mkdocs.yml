@@ -7,8 +7,10 @@ pages:
   - Home: index.md
   - ReadTheDoc: readTheDoc.md
   - Linux: linux.md
-  - iptables: iptables.md
+  - Linux commands:
+    - iptables: iptables.md
   - Cassandra Introduction: cassandra.md
+  - Md file example: mdFileExample.md
   - About: about.md
   
 markdown_extensions:
