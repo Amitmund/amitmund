@@ -9,11 +9,6 @@ theme: readthedocs
 nav:
     - Home: index.md
     - ReadTheDoc: readTheDoc.md
-    - Linux:
-      - Linux: linux/linux.md
-      - Linux Commands:
-        - iptables: iptables.md
-    - Cassandra: 
-      - Cassandra: cassandra/cassandra.md
-      - Cassandra Interview Related Questions: cassandraInterviewQuestions.md
+    - Linux: linux/linux.md
+    - Cassandra: cassandra/cassandra.md
     - About: about.md
