@@ -5,8 +5,3 @@ site_author: Amit Kumar Mund
 
  
 theme: readthedocs
-
-pages:
-- Home: index.md
-- Manual:
-  - Tutorial: linux/linux.md
