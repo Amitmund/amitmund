@@ -1,4 +1,4 @@
-#awk
+# awk
 
 Books:
 
@@ -61,7 +61,7 @@ $ gawk '( $4 ~ /[Pp]enguin/) {print} ' books
 ```
 
 ## SRE Interview Questions: awk
-
+```
 Unix Interview Questions on Awk Command
 Awk is powerful tool in Unix. Awk is an excellent tool for processing the files which have data arranged in rows and columns format. It is a good filter and report writer. 
 
@@ -98,3 +98,4 @@ awk 'BEGIN {sum=0} {sum=sum+1} END {print sum}' filename
 
 Another way to print the number of lines is by using the NR. The command is
 awk 'END{print NR}' filename
+```
