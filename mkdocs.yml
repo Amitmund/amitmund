@@ -1,7 +1,7 @@
-site_name:				Amit Mund
-repo_url:					https://github.com/Amitmund/amitmund/
-site_description:	Notes of my learning.
-site_author:			Amit Kumar Mund
+site_name: Amit Mund
+repo_url: https://github.com/Amitmund/amitmund/
+site_description: Notes of my learning.
+site_author: Amit Kumar Mund
 
  
 theme: readthedocs
@@ -9,7 +9,7 @@ theme: readthedocs
 nav:
     - Home: index.md
     - ReadTheDoc: readTheDoc.md
-    - Linux: 
+    - Linux:
 	- Linux: linux/linux.md
         - Linux Commands:
             - iptables: iptables.md
