@@ -1,4 +1,6 @@
 site_name: Amit Mund
 nav:
     - Home: index.md
+    - Cassandra: Cassandra.md
     - About: about.md
+theme: readthedocs
