@@ -174,4 +174,42 @@ Or, in pure Markdown, but losing the image sizing and border:
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 ---
+Some more information:
+
+https://github.com/cjsheets/mkdocs-rtd-dropdown/blob/master/docs/user-guide/configuration.md
+
+```yaml
+site_name: Marshmallow Generator
+```
+
+**default**: `null`
+
+```yaml
+repo_url: https://github.com/example/repository/
+```
+
+**default**: `'GitHub'`, `'Bitbucket'` or `'GitLab'` if the `repo_url` matches
+those domains, otherwise the hostname from the `repo_url`
+
+```yaml
+# Query string example
+edit_uri: root/path/docs/
+```
+
+```yaml
+nav:
+    - 'Introduction': 'index.md'
+    - 'User Guide': 'user-guide.md'
+    - 'About': 'about.md'
+```
+
+Source file      | use_directory_urls: true  | use_directory_urls: false
+---------------- | ------------------------- | -------------------------
+index.md         | /                         | /index.html
+api-guide.md     | /api-guide/               | /api-guide.html
+about/license.md | /about/license/           | /about/license.html
+
+---
+
+
 
