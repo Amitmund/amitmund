@@ -27,7 +27,7 @@ markdown_extensions:
   - fenced_code
  
 theme:
-    name: rtd-dropdown
+    name: readthedocs
     highlightjs: true
     hljs_languages:
         - yaml
