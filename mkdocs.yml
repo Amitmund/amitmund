@@ -7,7 +7,7 @@ pages:
   - Home: index.md
   - ReadTheDoc: readTheDoc.md
   - Linux:
-    - iptables: iptables.md
+    - iptables: linux/iptables.md
   - Cassandra:
     - Introduction: cassandra.md
   - Consul:
