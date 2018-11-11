@@ -1,0 +1,4 @@
+site_name: Amit Mund
+nav:
+    - Home: index.md
+    - About: about.md
