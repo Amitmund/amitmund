@@ -6,9 +6,7 @@ site_author: Amit Kumar Mund
  
 theme: readthedocs
 
-nav:
-    - Home: index.md
-    - ReadTheDoc: readTheDoc.md
-    - Linux: linux/linux.md
-    - Cassandra: cassandra/cassandra.md
-    - About: about.md
+pages:
+- Home: index.md
+- Manual:
+  - Tutorial: linux/linux.md
