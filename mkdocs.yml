@@ -7,6 +7,7 @@ pages:
   - Home: index.md
 
   - Linux:
+    - awk: linux/awk.md
     - iptables: linux/iptables.md
     - tcpdump: linux/tcpdump.md
   - Cassandra:
