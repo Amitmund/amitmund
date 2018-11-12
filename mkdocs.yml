@@ -10,6 +10,7 @@ pages:
     - awk: linux/awk.md
     - iptables: linux/iptables.md
     - tcpdump: linux/tcpdump.md
+    - unix signals: linux/unixSignals.md
   - Cassandra:
     - Introduction: cassandra/cassandra.md
   - Consul:
