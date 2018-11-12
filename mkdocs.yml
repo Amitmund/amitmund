@@ -6,18 +6,18 @@ site_author: Amit Kumar Mund
 pages:
   - Home: index.md
 
-  - Linux:
+  - LINUX:
     - awk: linux/awk.md
     - iptables: linux/iptables.md
     - tcpdump: linux/tcpdump.md
     - unix signals: linux/unixSignals.md
-  - Cassandra:
+  - CASSANDRA:
     - Introduction: cassandra/cassandra.md
-  - Consul:
+  - CONSUL:
     - Consul notes: consul/consul.md
-  - Git:
+  - GIT:
     - Git notes: git/git.md
-  - ReadTheDocRelated:
+  - READTHEDOCSRELATED:
     - Notes on readthedoc: markdown/readTheDoc.md
     - Example of Markdown: markdown/mdFileExample.md
   - About: about.md
