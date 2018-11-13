@@ -2,14 +2,17 @@
 Heading
 =======
 
-Level1
+Level 2
 ------
 
-Level2
+Looks like level 2 to me
 ~~~~~~
 
-..Note:: This is the note section.
+Level 3
+#####
+
+.. Note:: This is the note section.
          This is the second line of note section.
  
-..tip:: This is the tip section.
+.. tip:: This is the tip section.
         This is the second line of tip secion.
