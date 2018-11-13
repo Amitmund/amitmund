@@ -131,7 +131,7 @@ feel free to ask for a commit bit.
    LINUX/awk
    LINUX/iptables
    LINUX/tcpdump
-   CASSANDRA/Cassandra
-   CASSANDRA/CassandraQuickNote
-   HOWTOWRITE/HowToWrite
+   CASSANDRA/cassandra
+   CASSANDRA/cassandraQuickNote
+   HOWTOWRITE/howToWrite
    
