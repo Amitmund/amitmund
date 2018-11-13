@@ -45,14 +45,27 @@ I will writing notes on Monitoring topics.
 
 .. toctree::
    :maxdepth: 2
-   :titlesonly:
-   :numbered:
-   :caption: Table of Contents
-   
+   :hidden:
+   :caption: LINUX
+
    LINUX/awk
    LINUX/iptables
    LINUX/tcpdump
+   
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+   :numbered:
+   :caption: CASSANDRA
+   
    CASSANDRA/cassandra
    CASSANDRA/cassandraQuickNote
+   
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+   :numbered:
+   :caption: HOWTOWRITE
+   
    HOWTOWRITE/howToWrite
    
