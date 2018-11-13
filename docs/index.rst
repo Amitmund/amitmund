@@ -11,8 +11,11 @@ There are three major parts of this work:
 
 .. note:: This is from the note section.
           All the note need to be written in this way.
-          
-.. tips:: This is the example of the tips section. 
+
+
+.. tip:: This is the example of the tip section. 
+
+.. tips:: This is the example of the tips section.
 
 Support Team
 ------------
