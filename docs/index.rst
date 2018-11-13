@@ -54,8 +54,7 @@ I will writing notes on Monitoring topics.
    
 .. toctree::
    :maxdepth: 2
-   :titlesonly:
-   :numbered:
+   :hidden:
    :caption: CASSANDRA
    
    CASSANDRA/cassandra
@@ -63,8 +62,7 @@ I will writing notes on Monitoring topics.
    
 .. toctree::
    :maxdepth: 2
-   :titlesonly:
-   :numbered:
+   :hidden:
    :caption: HOWTOWRITE
    
    HOWTOWRITE/howToWrite
