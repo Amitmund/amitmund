@@ -47,7 +47,6 @@ I will writing notes on Monitoring topics.
    :maxdepth: 1
    :titlesonly:
    
-   LINUX
    CASSANDRA
    HOWTOWRITE
-   
+   LINUX
