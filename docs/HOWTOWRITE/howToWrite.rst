@@ -1,6 +1,6 @@
 
-Heading
-=======
+How to write the documentation with rst format
+=====
 
 Level 2
 ------
