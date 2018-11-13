@@ -42,11 +42,16 @@ Monitoring
 I will writing notes on Monitoring topics.
 
 
-
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: LINUX
+   
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: LINUX_COMMANDS
 
    LINUX/awk
    LINUX/iptables
@@ -59,6 +64,37 @@ I will writing notes on Monitoring topics.
    
    CASSANDRA/cassandra
    CASSANDRA/cassandraQuickNote
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: CONSUL
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: ELK
+      
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: PERL
+   
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: PYTHON
+   
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: GO  
+   
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: VAGRANT 
    
 .. toctree::
    :maxdepth: 2
