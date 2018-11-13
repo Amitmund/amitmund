@@ -122,7 +122,7 @@ After that,
 feel free to ask for a commit bit.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :titlesonly:
 
    CASSANDRA/Cassandra
