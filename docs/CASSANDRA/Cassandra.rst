@@ -1,3 +1,5 @@
+.. _my-reference-label:Cassandra
+
 Cassandra
 =========
 
