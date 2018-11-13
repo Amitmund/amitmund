@@ -9,10 +9,10 @@ There are three major parts of this work:
    :local:
    :depth: 1
 
-.. note:: You may notice that a number of names appear on multiple teams.
-          This is because we are lacking contributors.
-          So please be bold and contact us,
-          and we'll get you sorted into the right team.
+.. note:: This is from the note section.
+          All the note need to be written in this way.
+          
+.. tips: This is the tips 
 
 Support Team
 ------------
@@ -126,4 +126,5 @@ feel free to ask for a commit bit.
    :titlesonly:
 
    CASSANDRA/Cassandra
+   CASSANDRA/CassandraQuickNote
    
