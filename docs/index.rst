@@ -47,10 +47,7 @@ I will writing notes on Monitoring topics.
    :maxdepth: 1
    :titlesonly:
    
-   LINUX/awk
-   LINUX/iptables
-   LINUX/tcpdump
-   CASSANDRA/cassandra
-   CASSANDRA/cassandraQuickNote
-   HOWTOWRITE/howToWrite
+   LINUX
+   CASSANDRA
+   HOWTOWRITE
    
