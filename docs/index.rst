@@ -46,7 +46,10 @@ I will writing notes on Monitoring topics.
 .. toctree::
    :maxdepth: 2
    :titlesonly:
+   :numbered:
+   :caption: Table of Contents
    
+   LINUX
    CASSANDRA
    HOWTOWRITE
-   LINUX
+   
