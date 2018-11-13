@@ -49,7 +49,10 @@ I will writing notes on Monitoring topics.
    :numbered:
    :caption: Table of Contents
    
-   LINUX
-   CASSANDRA
-   HOWTOWRITE
+   LINUX/awk
+   LINUX/iptables
+   LINUX/tcpdump
+   CASSANDRA/cassandra
+   CASSANDRA/cassandraQuickNote
+   HOWTOWRITE/howToWrite
    
