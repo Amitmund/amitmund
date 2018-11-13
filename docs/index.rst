@@ -120,3 +120,10 @@ You can check out our :doc:`contribute` to get more information,
 and find issues that need to be addressed.
 After that,
 feel free to ask for a commit bit.
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   CASSANDRA/Cassandra
+   
