@@ -175,5 +175,45 @@ The |biohazard| symbol must be used on containers used to dispose of medical was
    (but, for instance, in HTML might be 
    rendered as an HTML comment)
    
-   
-   
+
+------------
+
+.. DANGER::
+   Beware killer rabbits!
+This directive might be rendered something like this:
+
++------------------------+
+|        !DANGER!        |
+|                        |
+| Beware killer rabbits! |
++------------------------+
+The following admonition directives have been implemented:
+
+attention
+caution
+danger
+error
+hint
+important
+note
+tip
+warning
+
+.. attention:: This is by using attention
+
+.. caution:: This is by using caution
+
+.. danger:: This is by using danger
+
+.. error:: This is by using error
+
+.. hint:: This is by using hint
+
+.. important:: This is by using important
+
+.. note:: This is by using note
+
+.. tip:: This is by using tip
+
+.. warning:: This is by using warning
+
