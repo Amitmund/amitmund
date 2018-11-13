@@ -12,7 +12,7 @@ There are three major parts of this work:
 .. note:: This is from the note section.
           All the note need to be written in this way.
           
-.. tips: This is the tips 
+.. tips:: This is the example of the tips section. 
 
 Support Team
 ------------
@@ -124,7 +124,11 @@ feel free to ask for a commit bit.
 .. toctree::
    :maxdepth: 1
    :titlesonly:
-
+   
+   LINUX/awk
+   LINUX/iptables
+   LINUX/tcpdump
    CASSANDRA/Cassandra
    CASSANDRA/CassandraQuickNote
+   HOWTOWRITE/HowToWrite
    
