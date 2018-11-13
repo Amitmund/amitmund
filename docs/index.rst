@@ -44,7 +44,7 @@ I will writing notes on Monitoring topics.
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
    
    CASSANDRA
