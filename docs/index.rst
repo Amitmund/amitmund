@@ -1,11 +1,7 @@
-Read the Docs Team
-==================
+Amit Mund
+==========
 
-readthedocs.org is the largest open source documentation hosting service.
-It's provided as a free service to the open source community,
-and is worked on by a community of volunteers that we're hoping to expand!
-We currently serve over 20,000,000 pageviews a month,
-and we hope to maintain a reliable and stable hosting platform for years to come.
+Over here I will be making note of all my current understanding in a correct order, so that it will be easy for all of us to go through.
 
 There are three major parts of this work:
 
