@@ -15,7 +15,7 @@ There are three major parts of this work:
 
 .. tip:: This is the example of the tip section. 
 
-.. tips:: This is the example of the tips section.
+
 
 Support Team
 ------------
