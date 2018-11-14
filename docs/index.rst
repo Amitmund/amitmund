@@ -47,15 +47,17 @@ I will writing notes on Monitoring topics.
    :hidden:
    :caption: LINUX
    
+   LINUX/linux
+   
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: LINUX_COMMANDS
 
-   LINUX/awk
-   LINUX/iptables
-   LINUX/tcpdump
+   LINUX_COMMAND/awk
+   LINUX_COMMAND/iptables
+   LINUX_COMMAND/tcpdump
    
 .. toctree::
    :maxdepth: 2
@@ -69,32 +71,44 @@ I will writing notes on Monitoring topics.
    :maxdepth: 2
    :hidden:
    :caption: CONSUL
+   
+   CONSUL/consul
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: ELK
-      
+   
+   ELK/elk
+   
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: PERL
+   
+   PERL/perl
    
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: PYTHON
    
+   PYTHON/python
+   
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: GO  
+   :caption: GO
+   
+   GO/go
    
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: VAGRANT 
+   :caption: VAGRANT
+   
+   VAGRANT/vagrant
    
 .. toctree::
    :maxdepth: 2
