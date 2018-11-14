@@ -113,6 +113,13 @@ I will writing notes on Monitoring topics.
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: MAC
+   
+   MAC/macHowTo.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: HOW_TO_WRITE
    
    HOW_TO_WRITE/howToWrite
