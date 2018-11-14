@@ -55,9 +55,9 @@ I will writing notes on Monitoring topics.
    :hidden:
    :caption: LINUX_COMMANDS
 
-   LINUX_COMMAND/awk
-   LINUX_COMMAND/iptables
-   LINUX_COMMAND/tcpdump
+   LINUX_COMMANDS/awk
+   LINUX_COMMANDS/iptables
+   LINUX_COMMANDS/tcpdump
    
 .. toctree::
    :maxdepth: 2
