@@ -99,7 +99,7 @@ I will writing notes on Monitoring topics.
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: HOWTOWRITE
+   :caption: HOW_TO_WRITE
    
-   HOWTOWRITE/howToWrite
+   HOW_TO_WRITE/howToWrite
    
