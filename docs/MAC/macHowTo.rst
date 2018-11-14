@@ -28,3 +28,6 @@ Mounting ntfs on mac
 
 
   $ open . 
+
+.. Note:: The disk mount point for your external hard disk might be different.
+          Please make a note of the same and do the changes as per the same.
