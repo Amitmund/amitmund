@@ -7,9 +7,7 @@ sed
 
 
 
-would replace repeating occurrences of x, y, or z with a single _
-::
-
+would replace repeating occurrences of x, y, or z with a single .::
   echo "$string" | sed -r 's/[xyz]+/_/g'
 
 
