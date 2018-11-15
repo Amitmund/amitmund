@@ -59,6 +59,7 @@ I will writing notes on Monitoring topics.
    LINUX_COMMANDS/awk
    LINUX_COMMANDS/iptables
    LINUX_COMMANDS/tcpdump
+   LINUX_COMMANDS/sed
    
 .. toctree::
    :maxdepth: 2
