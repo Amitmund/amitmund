@@ -47,7 +47,8 @@ I will writing notes on Monitoring topics.
    :hidden:
    :caption: LINUX
    
-   LINUX/linux
+   LINUX/introductionToLinux
+   LINUX/concepts
    
 
 .. toctree::
@@ -64,7 +65,7 @@ I will writing notes on Monitoring topics.
    :hidden:
    :caption: CASSANDRA
    
-   CASSANDRA/cassandra
+   CASSANDRA/introductionToCassandra
    CASSANDRA/cassandraJargons
 
 .. toctree::
@@ -72,35 +73,40 @@ I will writing notes on Monitoring topics.
    :hidden:
    :caption: CONSUL
    
-   CONSUL/consul
+   CONSUL/introductionToConsul
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: ELK
    
-   ELK/elk
+   ELK/introductionToElk
    
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: PERL
    
-   PERL/perl
+   PERL/introductionToPerl
+   PERL/perlOneLiner
+   PERL/perlJargons
+
    
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: PYTHON
    
-   PYTHON/python
+   PYTHON/introductionToPython
+   PYTHON/pythonJargons
    
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: GO
    
-   GO/go
+   GO/introductionToGo
+   GO/goJargons
    
 
 .. toctree::
@@ -108,7 +114,7 @@ I will writing notes on Monitoring topics.
    :hidden:
    :caption: VAGRANT
    
-   VAGRANT/vagrant
+   VAGRANT/introductionTovagrant
    
 .. toctree::
    :maxdepth: 2
