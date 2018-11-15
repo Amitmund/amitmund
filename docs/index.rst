@@ -65,7 +65,7 @@ I will writing notes on Monitoring topics.
    :caption: CASSANDRA
    
    CASSANDRA/cassandra
-   CASSANDRA/cassandraQuickNote
+   CASSANDRA/cassandraJargons
 
 .. toctree::
    :maxdepth: 2
