@@ -32,7 +32,7 @@ CQL Table
 A collection of ordered columns fetched by table row. A table consists of columns and has a primary key.
 
 
-
+-----
 
 
 Key components for configuring Cassandra
@@ -81,7 +81,7 @@ System keyspace table properties
 You set storage configuration attributes on a per-keyspace or per-table basis programmatically or using a client application, such as CQL.
 
 
-
+-----
 
 Database Internals
 ------
@@ -102,7 +102,7 @@ Data consistency
 Topics about how up-to-date and synchronized a row of data is on all replicas.
 
 
-
+-----
 
 
 configuration
@@ -160,6 +160,7 @@ Hadoop support
 Cassandra support for integrating Hadoop with Cassandra.
 
 
+-----
 
 
 Initializing a cluster
@@ -181,7 +182,7 @@ Starting and stopping Cassandra
 Topics for starting and stopping Cassandra.
 
 
-
+-----
 
 Operations
 -----
@@ -243,7 +244,7 @@ Purging gossip state on a node
 Correcting a problem in the gossip state.
 
 
-
+-----
 
 Cassandra tools
 -----
@@ -269,3 +270,5 @@ Tools for using, upgrading, and changing Cassandra SSTables.
 
 
 .. Note:: Will go through in more details about these.
+
+-----
