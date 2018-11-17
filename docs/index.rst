@@ -69,6 +69,7 @@ I will writing notes on Monitoring topics.
    CASSANDRA/introductionToCassandra
    CASSANDRA/cassandraHighLevelView
    CASSANDRA/cassandraJargons
+   CASSANDRA/cassandraInDetails
 
 .. toctree::
    :maxdepth: 2
