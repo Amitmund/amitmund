@@ -5,6 +5,8 @@ Cassandra High Level View
 Key structures
 -----
 
+.. Note:: In this section we will go through few "Key structures" of cassandra.
+
 Node
 ~~~~
 Where you store your data. It is the basic infrastructure component of Cassandra.
@@ -30,8 +32,13 @@ CQL Table
 A collection of ordered columns fetched by table row. A table consists of columns and has a primary key.
 
 
+
+
+
 Key components for configuring Cassandra
 -----
+
+.. Note:: In this section we will go through few "Key components for configuring Cassandra" of cassandra.
 
 Gossip
 ~~~~~
@@ -74,8 +81,13 @@ System keyspace table properties
 You set storage configuration attributes on a per-keyspace or per-table basis programmatically or using a client application, such as CQL.
 
 
+
+
 Database Internals
 ------
+
+.. Note:: In this section we will go through few "Database Internals" of cassandra.
+
 
 Storage engine
 ~~~~~
@@ -91,8 +103,13 @@ Topics about how up-to-date and synchronized a row of data is on all replicas.
 
 
 
+
+
 configuration
 ------
+
+.. Note:: In this section we will go through few "configuration" of cassandra.
+
 
 cassandra.yaml
 ~~~~~
@@ -143,8 +160,12 @@ Hadoop support
 Cassandra support for integrating Hadoop with Cassandra.
 
 
+
+
 Initializing a cluster
 -----
+
+.. Note:: In this section we will go through few "Initialization a cluster" of cassandra.
 
 
 Initializing a multiple node cluster (single datacenter)
@@ -161,8 +182,13 @@ Topics for starting and stopping Cassandra.
 
 
 
+
 Operations
 -----
+
+.. Note:: In this section we will go through few "Operations" of cassandra.
+
+
 Cassandra operation topics, such as node and datacenter operations, changing replication strategies, configuring compaction and compression, caching, and tuning Bloom filters.
 
 Adding or removing nodes, datacenters, or clusters
@@ -217,8 +243,13 @@ Purging gossip state on a node
 Correcting a problem in the gossip state.
 
 
+
+
 Cassandra tools
 -----
+
+.. Note:: In this section we will go through few "Cassandra tools" of cassandra.
+
 
 The nodetool utility
 ~~~~~
@@ -235,3 +266,6 @@ A Java-based stress testing utility for basic benchmarking and load testing a Ca
 SSTable utilities
 ~~~~~
 Tools for using, upgrading, and changing Cassandra SSTables.
+
+
+.. Note:: Will go through in more details about these.
