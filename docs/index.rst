@@ -46,10 +46,10 @@ I will writing notes on Monitoring topics.
    :maxdepth: 2
    :hidden:
    :caption: LINUX
-   
+
    LINUX/introductionToLinux
    LINUX/concepts
-   
+
 
 .. toctree::
    :maxdepth: 2
@@ -60,74 +60,74 @@ I will writing notes on Monitoring topics.
    LINUX_COMMANDS/iptables
    LINUX_COMMANDS/tcpdump
    LINUX_COMMANDS/sed
-   
+
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: CASSANDRA
-   
+
    CASSANDRA/introductionToCassandra
+   CASSANDRA/cassandraHighLevelView
    CASSANDRA/cassandraJargons
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: CONSUL
-   
+
    CONSUL/introductionToConsul
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: ELK
-   
+
    ELK/introductionToElk
-   
+
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: PERL
-   
+
    PERL/introductionToPerl
    PERL/perlOneLiner
    PERL/perlJargons
 
-   
+
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: PYTHON
-   
+
    PYTHON/introductionToPython
    PYTHON/pythonJargons
-   
+
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: GO
-   
+
    GO/introductionToGo
    GO/goJargons
-   
+
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: VAGRANT
-   
+
    VAGRANT/introductionTovagrant
-   
+
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: MAC
-   
+
    MAC/macHowTo.rst
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: HOW_TO_WRITE
-   
+
    HOW_TO_WRITE/howToWrite
-   
