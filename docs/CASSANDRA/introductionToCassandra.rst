@@ -1,5 +1,5 @@
 
-Cassandra
+Introduction To Cassandra
 =========
 
   Over here we will be having notes on Cassandra.
@@ -52,7 +52,12 @@ NoSQL
     NoSQL database provides a mechanism to store and retrieve data, which are modeled rather then the tabular relations used in Relation databases.
 
 .. Note:: Schema agnostic
+
           Auto sharding and elasticity
+
           Highly distributable
+
           Easily scalable
+
           Integrated caching
+          
