@@ -1,11 +1,10 @@
 Cassandra In details
 =====
 
-.. Note::
-        Having this notes from:
-
+.. Tip::
         https://docs.datastax.com/en/cassandra/3.0/index.html
 
+-----
 
 About Apache Cassandra
 -----
@@ -52,6 +51,7 @@ What other tools come with Cassandra?
 
 Cassandra automatically installs nodetool, a useful command-line management tool for Cassandra. A tool for load-stressing and basic benchmarking, cassandra-stress, is also installed by default.
 
+-----
 
 Understanding the architecture
 -----
