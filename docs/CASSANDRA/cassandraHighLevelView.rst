@@ -2,84 +2,29 @@ Cassandra High Level View
 =====
 
 
-Key structures
+Understanding the architecture
 -----
+.. Note:: In this section we will go through few "Understanding the architecture"
 
-.. Note:: In this section we will go through few "Key structures" of cassandra.
-
-Node
-~~~~
-Where you store your data. It is the basic infrastructure component of Cassandra.
-
-datacenter
+Architecture in brief
 ~~~~~
-A collection of related nodes. A datacenter can be a physical datacenter or virtual datacenter. Different workloads should use separate datacenters, either physical or virtual. Replication is set by datacenter. Using separate datacenters prevents Cassandra transactions from being impacted by other workloads and keeps requests close to each other for lower latency. Depending on the replication factor, data can be written to multiple datacenters. datacenters must never span physical locations.
+Essential information for understanding and using Cassandra.
 
-Cluster
+Internode communications (gossip)
 ~~~~~
-A cluster contains one or more datacenters. It can span physical locations.
+Cassandra uses a protocol called gossip to discover location and state information about the other nodes participating in a Cassandra cluster.
 
-Commit log
+Data distribution and replication
 ~~~~~
-All data is written first to the commit log for durability. After all its data has been flushed to SSTables, it can be archived, deleted, or recycled.
+How data is distributed and factors influencing replication.
 
-SSTable
+Partitioners
 ~~~~~
-A sorted string table (SSTable) is an immutable data file to which Cassandra writes memtables periodically. SSTables are append only and stored on disk sequentially and maintained for each Cassandra table.
+A partitioner determines how data is distributed across the nodes in the cluster (including replicas).
 
-CQL Table
+Snitches
 ~~~~~
-A collection of ordered columns fetched by table row. A table consists of columns and has a primary key.
-
-
------
-
-
-Key components for configuring Cassandra
------
-
-.. Note:: In this section we will go through few "Key components for configuring Cassandra" of cassandra.
-
-Gossip
-~~~~~
-A peer-to-peer communication protocol to discover and share location and state information about the other nodes in a Cassandra cluster. Gossip information is also persisted locally by each node to use immediately when a node restarts.
-
-Partitioner
-~~~~~
-A partitioner determines which node will receive the first replica of a piece of data, and how to distribute other replicas across other nodes in the cluster. Each row of data is uniquely identified by a primary key, which may be the same as its partition key, but which may also include other clustering columns. A partitioner is a hash function that derives a token from the primary key of a row. The partitioner uses the token value to determine which nodes in the cluster receive the replicas of that row. The Murmur3Partitioner is the default partitioning strategy for new Cassandra clusters and the right choice for new clusters in almost all cases.
-
-You must set the partitioner and assign the node a num_tokens value for each node. The number of tokens you assign depends on the hardware capabilities of the system. If not using virtual nodes (vnodes), use the initial_token setting instead.
-
-Replication factor
-~~~~~
-The total number of replicas across the cluster. A replication factor of 1 means that there is only one copy of each row on one node. A replication factor of 2 means two copies of each row, where each copy is on a different node. All replicas are equally important; there is no primary or master replica. You define the replication factor for each datacenter. Generally you should set the replication strategy greater than one, but no more than the number of nodes in the cluster.
-
-Replica placement strategy
-~~~~~
-Cassandra stores copies (replicas) of data on multiple nodes to ensure reliability and fault tolerance. A replication strategy determines which nodes to place replicas on. The first replica of data is simply the first copy; it is not unique in any sense. The NetworkTopologyStrategy is highly recommended for most deployments because it is much easier to expand to multiple datacenters when required by future expansion.
-
-When creating a keyspace, you must define the replica placement strategy and the number of replicas you want.
-
-Snitch
-~~~~~
-A snitch defines groups of machines into datacenters and racks (the topology) that the replication strategy uses to place replicas.
-
-You must configure a snitch when you create a cluster. All snitches use a dynamic snitch layer, which monitors performance and chooses the best replica for reading. It is enabled by default and recommended for use in most deployments. Configure dynamic snitch thresholds for each node in the cassandra.yaml configuration file.
-
-The default SimpleSnitch does not recognize datacenter or rack information. Use it for single-datacenter deployments or single-zone in public clouds. The GossipingPropertyFileSnitch is recommended for production. It defines a node's datacenter and rack and uses gossip for propagating this information to other nodes.
-
-The cassandra.yaml configuration file
-~~~~~
-The main configuration file for setting the initialization properties for a cluster, caching parameters for tables, properties for tuning and resource utilization, timeout settings, client connections, backups, and security.
-
-By default, a node is configured to store the data it manages in a directory set in the cassandra.yaml file.
-
-In a production cluster deployment, you can change the commitlog-directory to a different disk drive from the data_file_directories.
-
-System keyspace table properties
-~~~~~
-You set storage configuration attributes on a per-keyspace or per-table basis programmatically or using a client application, such as CQL.
-
+A snitch determines which datacenters and racks nodes belong to.
 
 -----
 
