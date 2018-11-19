@@ -15,7 +15,7 @@ There are multiple major parts of this documentation:
 
 
 Linux
-------------
+-----
 
 Linux have lots of things to learn.
 This might include tasks like:
