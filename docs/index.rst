@@ -128,6 +128,13 @@ I will writing notes on Monitoring topics.
    VAGRANT/introductionTovagrant
 
 .. toctree::
+  :maxdepth: 2
+  :hidden:
+  :caption: VAGRANT
+
+  DEVOPSTOOLS/toolsName
+
+.. toctree::
    :maxdepth: 2
    :hidden:
    :caption: MAC
