@@ -90,6 +90,7 @@ I will writing notes on Monitoring topics.
    :hidden:
    :caption: PERL
 
+   PERL/perlQuickNote
    PERL/introductionToPerl
    PERL/perlOneLiner
    PERL/perlJargons
