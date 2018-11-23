@@ -57,9 +57,19 @@ print $memAddOfName;
 Size of Array
 -----
 
-@myArray=(1,2.25,2e5,'Amit');
-my $sizeOfMyArray=$#myArray+1;
+my @myArray=(1,2.25,2e5,'Amit');
 
-print "Lenght of myArray is $sizeOfMyArray";
+my $size1=$#myArray+1;
+my $size2=@myArrary;
+my $size3=scalar @myArrary;
+
+
+Array
+------
+
+@days=qw/mon tue wed thu fri sat sun/;
+print "last day of week is $days[-1";
+
+
 
 

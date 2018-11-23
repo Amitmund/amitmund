@@ -10,6 +10,7 @@ Cracking the Coding Interview: 189 Programing Questions and SolutionsIntroductio
 Cracking the Tech Career
 Programming Interviews Exposed: Coding Your Way Through the Interview
 Programming Interviews Exposed: Secrets to Landing Your Next Job
+Elements of Programming Interviews: The Insiders' Guide 
 Algorithms to Live By: The Computer Science of Human Decisions
 Clean Code: A Handbook of Agile Software Craftsmanship
 Cracking the PM Interview: How to Land a Product Manager Job in Technology
