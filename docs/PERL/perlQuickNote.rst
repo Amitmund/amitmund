@@ -68,7 +68,7 @@ Array
 ------
 
 @days=qw/mon tue wed thu fri sat sun/;
-print "last day of week is $days[-1";
+print "last day of week is $days[-1]";
 
 
 
