@@ -114,12 +114,12 @@ I will writing notes on Monitoring topics.
 
 
 .. toctree::
-:maxdepth: 2
-      :hidden:
-      :caption: JAVA
+    :maxdepth: 2
+    :hidden:
+    :caption: JAVA
 
-      JAVA/introductionToJava
-      JAVA/javaJargons
+    JAVA/introductionToJava
+    JAVA/javaJargons
 
 .. toctree::
    :maxdepth: 2
