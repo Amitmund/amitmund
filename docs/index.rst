@@ -78,6 +78,7 @@ I will writing notes on Monitoring topics.
    :caption: DOCKER
 
    DOCKER/introductionToDocker
+   DOCKER/quickNotes
 
 
 .. toctree::
