@@ -40,3 +40,36 @@ https://code.visualstudio.com/docs/editor/variables-reference
     ]
   }
 
+
+You can also define more then one command.
+Example:
+
+But I have not tested anything on the same much yet.
+
+::
+
+  {
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run bash script",
+        "type": "shell",
+        "command": "bash ${file}",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+      {
+        "label": "Run perl script",
+        "type": "shell",
+        "command": "perl ${file}",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
