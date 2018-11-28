@@ -71,6 +71,24 @@ I will writing notes on Monitoring topics.
    CASSANDRA/cassandraJargons
    CASSANDRA/cassandraInDetails
 
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: DOCKER
+
+   DOCKER/introductionToDocker
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: VAGRANT
+
+   VAGRANT/introductionToVagrant
+   VAGRANT/vargant
+   
+
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -122,16 +140,9 @@ I will writing notes on Monitoring topics.
     JAVA/javaJargons
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: VAGRANT
-
-   VAGRANT/introductionTovagrant
-
-.. toctree::
   :maxdepth: 2
   :hidden:
-  :caption: VAGRANT
+  :caption: DEVOPSTOOLS
 
   DEVOPSTOOLS/toolsName
 
