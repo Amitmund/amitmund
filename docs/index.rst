@@ -145,6 +145,13 @@ I will writing notes on Monitoring topics.
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: IDE_EDITOR
+
+   IDE_EDITOR/code
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: HOW_TO_WRITE
 
    HOW_TO_WRITE/howToWrite
