@@ -43,3 +43,12 @@ Create a directory for each Dockerfile.
 
 ---
 
+Logging to a docker container
+-----
+
+Example:
+
+docker exec -it <container_id> /bin/bash
+
+---
+
