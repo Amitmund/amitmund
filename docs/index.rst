@@ -141,6 +141,14 @@ I will writing notes on Monitoring topics.
     JAVA/javaJargons
 
 .. toctree::
+    :maxdepth: 2
+    :hidden:
+    :caption: GIT
+
+    GIT/introductionToGit
+    GIT/gitQucikCommands
+
+.. toctree::
   :maxdepth: 2
   :hidden:
   :caption: DEVOPSTOOLS
