@@ -1,0 +1,40 @@
+
+-------------------------------------------------------------
+root@cassandra1:~# nodetool decommission
+root@cassandra1:~#
+
+-------------------------------------------------------------
+
+# while in the process.
+
+root@cassandra3:~# nodetool status
+Datacenter: datacenter1
+=======================
+Status=Up/Down
+|/ State=Normal/Leaving/Joining/Moving
+--  Address       Load       Tokens       Owns (effective)  Host ID                               Rack
+UL  192.168.9.11  237.26 KB  256          64.4%             712ea6bb-20a3-42a8-ae22-ca8ac29bb203  rack1
+UN  192.168.9.12  184.97 KB  256          67.9%             e7cf2cb2-3c70-40c0-a2f2-d6250cd3fe81  rack1
+UN  192.168.9.13  220.75 KB  256          67.7%             615a2f1f-3427-47e2-adae-83d43b836e55  rack1
+
+-------------------------------------------------------------
+
+
+# after the nodetool process is over.
+
+root@cassandra3:~# nodetool status
+Datacenter: datacenter1
+=======================
+Status=Up/Down
+|/ State=Normal/Leaving/Joining/Moving
+--  Address       Load       Tokens       Owns (effective)  Host ID                               Rack
+UN  192.168.9.12  194.62 KB  256          100.0%            e7cf2cb2-3c70-40c0-a2f2-d6250cd3fe81  rack1
+UN  192.168.9.13  225.47 KB  256          100.0%            615a2f1f-3427-47e2-adae-83d43b836e55  rack1
+
+root@cassandra3:~#
+
+
+-------------------------------------------------------------
+
+Q) what is the logic of bootstrapping.
+
