@@ -49,6 +49,7 @@ I will writing notes on Monitoring topics.
 
    LINUX/introductionToLinux
    LINUX/concepts
+   LINUX/bashScriptBestPractices
 
 
 .. toctree::
