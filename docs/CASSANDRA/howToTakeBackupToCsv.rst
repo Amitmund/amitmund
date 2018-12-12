@@ -1,4 +1,4 @@
-How to take Backup of any table to a CSV in Cassandra
+Taking backup to CSV in Cassandra
 =====
 
 
