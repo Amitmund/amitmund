@@ -7,7 +7,8 @@ Example:
 
 ::
 
-  # To check if the argument is not equal to 1 and there should be gap between [[ in ]] if block.
+  # To check if the argument must be equal to 1 and there should be gap between [[ in ]] if block.
+  # In this following example: "$# -ne 1"
   if [[ "$*" =~ "--help" || "$*" =~ "-h" || $# -ne 1 ]]; then
     usage
   fi
