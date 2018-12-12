@@ -11,7 +11,7 @@ To check the culster:
 
 ::
 
-nodetool -u <username> -p <password> status
+  nodetool -u <username> -p <password> status
 
 And you should see all as "UN"
 
@@ -21,5 +21,5 @@ Command to take backup, (Make sure all the cassandra node is up within the culst
 
 ::
 
-cqlsh -u <username> -p password --ssl --cqlshrc=</path/to/cert> -e "copy <keyspace>.<tablename> to '/path/to/csv/backup/file'"
+  cqlsh -u <username> -p password --ssl --cqlshrc=</path/to/cert> -e "copy <keyspace>.<tablename> to '/path/to/csv/backup/file'"
 
