@@ -70,7 +70,7 @@ I will writing notes on Monitoring topics.
    CASSANDRA/cassandraHighLevelView
    CASSANDRA/cassandraJargons
    CASSANDRA/cassandraInDetails
-   CASSANDRA/howToTakeBackupToCSV
+   CASSANDRA/howToTakeBackupToCsv
 
 
 .. toctree::
