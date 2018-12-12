@@ -6,6 +6,7 @@ Must have a check argument section
 Example:
 
 ::
+
   # To check if the argument is not equal to 1 and there should be gap between [[ in ]] if block.
   if [[ "$*" =~ "--help" || "$*" =~ "-h" || $# -ne 1 ]]; then
     usage
@@ -16,6 +17,7 @@ Must have a Usage section
 Example:
 
 ::
+
   function usage(){
     echo ""
     echo "USAGE: $0 [ -h, --help, arg1 ]" 1>&2;
