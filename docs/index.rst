@@ -12,19 +12,6 @@ Over here I will be making note of all my current understanding in a correct ord
 .. note:: Whenever I learn something, I will try my best to to update this documentation best to my that time understanding.
 
 
-QuickHackNotes
------
-
-Linux
------
-
-Cassandra
----------------
-
-Monitoring
-----------------
-
-
 
 .. toctree::
    :maxdepth: 2

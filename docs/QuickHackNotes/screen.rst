@@ -7,6 +7,7 @@ An example of screenrc file.
 Following is an sample example of screenrc file. You can keep the same as .screenrc at your home directory, or can keep at any place and later you can use ``-c`` options call the same.
 
 ::
+
     # don't show start up message
     startup_message off
 
