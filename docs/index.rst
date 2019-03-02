@@ -19,6 +19,8 @@ Over here I will be making note of all my current understanding in a correct ord
    :caption: QuickHackNotes
 
    QuickHackNotes/screen
+   QuickHackNotes/Openssl
+   QuickHackNotes/Keytool
 
 .. toctree::
    :maxdepth: 2
