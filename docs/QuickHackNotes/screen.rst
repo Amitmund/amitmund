@@ -62,14 +62,39 @@ Few screen options
 
 ::
 
+    # apt-get install screen (On Debian based Systems)
+    
+    # yum install screen (On RedHat based Systems)
 
-    ``ctrl + A``  and  ``"`` and select `second session`
+    ctrl + A and " and select `second session`
     Ctrl + A and C (Will create a new tab, within screen session)
     Ctrl + A and K (will kill the session)
     Ctrl + A and space (next screen) # (or use the number)
     Ctrl + A and P (previous screen)
     Ctrl + A and " (list of screens)
 
+
+
+    Ctrl-A + ? # You will see all commands or parameters on screen.
+
+    To get out of the help screen, you can press “space-bar” button or “Enter“. 
+
+    screen -r # To re-attach the screen.
+    screen -ls # List screen session.
+    screen -r ScreenSessionName # To attach to a screen session.
+
+    ctrl-a + c # create a new screen (tab)
+    ctrl-a + p # move to previous tab
+    ctrl-a + n # move to next tab
+    ctrl-a + number # to select given tab.
+    ctrl-a + d # detach the screen
+
+
+    # For logging:
+    # Before you start the screen:
+    screen -L
+    # Within the screen session
+    ctrl-a + H # Note: caps H. To for logging whatever you do.
 
 Screen Help
 -----
@@ -113,37 +138,6 @@ Screen Help
     -x            Attach to a not detached screen. (Multi display mode).
     -X            Execute <cmd> as a screen command in the specified session.
 
-
-
-Few other commands
------
-
-::
-
-
-# apt-get install screen (On Debian based Systems)
-# yum install screen (On RedHat based Systems)
-
-Ctrl-A + ? # You will see all commands or parameters on screen.
-
-To get out of the help screen, you can press “space-bar” button or “Enter“. 
-
-screen -r # To re-attach the screen.
-screen -ls # List screen session.
-screen -r ScreenSessionName # To attach to a screen session.
-
-ctrl-a + c # create a new screen (tab)
-ctrl-a + p # move to previous tab
-ctrl-a + n # move to next tab
-ctrl-a + number # to select given tab.
-ctrl-a + d # detach the screen
-
-
-# For logging:
-# Before you start the screen:
-screen -L
-# Within the screen session
-ctrl-a + H # Note: caps H. To for logging whatever you do.
 
 
 
