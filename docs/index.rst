@@ -120,6 +120,7 @@ Over here I will be making note of all my current understanding in a correct ord
 
     JAVA/introductionToJava
     JAVA/javaJargons
+    JAVA/JavaHowTo
 
 .. toctree::
     :maxdepth: 2
