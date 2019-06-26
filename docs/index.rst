@@ -98,9 +98,9 @@ Over here I will be making note of all my current understanding in a correct ord
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: API
+   :caption: api
 
-   PYTHON/apiProgrammingWithFlash
+   api/apiProgrammingWithPythonFlash
 
 .. toctree::
    :maxdepth: 2
@@ -109,7 +109,6 @@ Over here I will be making note of all my current understanding in a correct ord
 
    PYTHON/introductionToPython
    PYTHON/pythonJargons
-   PYTHON/apiProgrammingWithFlash
 
 
 .. toctree::
