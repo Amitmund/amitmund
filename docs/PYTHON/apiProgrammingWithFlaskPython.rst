@@ -33,7 +33,7 @@ One example:
         return "Hello World!"
 
     ### for route /book ###
-    
+
     @app.route(' /books')
         def welcome_to_book():
         return 'Welcome to the book api.'
