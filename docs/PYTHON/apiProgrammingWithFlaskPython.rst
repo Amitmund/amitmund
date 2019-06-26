@@ -22,12 +22,18 @@ One example:
     # request class:
     # Response class: to return proper status code. Its upper case.
 
-    ### for route / #####
+    # Need to explane the following line.
+    # 
+    app = Flask(__name__)
+
+    ### for route / ####
 
     @app.route('/')
         def hello():
         return "Hello World!"
 
+    ### for route /book ###
+    
     @app.route(' /books')
         def welcome_to_book():
         return 'Welcome to the book api.'
