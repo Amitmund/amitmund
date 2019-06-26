@@ -8,5 +8,3 @@ What Flask Provides out of box:
 - Routing the HTTP requests to the controller
 - Dispatching controller
 - Returning the HTTP response
-
-#
