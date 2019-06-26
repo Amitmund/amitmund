@@ -103,6 +103,8 @@ Over here I will be making note of all my current understanding in a correct ord
 
    PYTHON/introductionToPython
    PYTHON/pythonJargons
+   PYTHON/apiProgrammingWithFlash
+
 
 .. toctree::
    :maxdepth: 2

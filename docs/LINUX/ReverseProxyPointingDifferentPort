@@ -1,0 +1,209 @@
+Reverse proxy pointing to Different port or host:port
+------
+
+.. Note:: Sometime, we will not be having network firewall port open of user network space and sometime the applications are running in different port and we don't want user to keep entering the port, but use the same from standard http/https port.
+    
+    We we can use this procedure to do the same.
+
+Example:
+
+    Lets say I have one application running on hostx port 8500, and we can't access that host's 8500 port (Lets say Server1) and also we have another server (Lets say MyWebServer), where we have the network access. 
+
+    Mean We have network access from `MyWebServer` to `Server1:8500`, then we can plan to do the following configurations, so that we should be able to access `Server1:8500` from accessing `MyWebServer/App1`.
+
+
+
+Apache HTTP Server As Reverse-Proxy Using mod_proxy Extension
+
+Overhere we set up Apache on Ubuntu  and use it as a ``reverse-proxy`` to welcome incoming connections and redirect them to application server(s) running on the same network. For this purpose, we are going to use and work with the mod_proxy extension and several other related Apache modules.
+
+The application comes with a lot of third party modules to handle different kind of tasks (modrewrite for rule-based URL rewriting) and one of them, albeit nowadays relatively neglected, is *modproxy*: The Apache Module to implement a proxy (or gateway) for servers running on the back-end.
+
+
+Apache Working As A Reverse-Proxy Using mod_proxy
+~~~~~~
+
+
+modproxy is the Apache module for redirecting connections (i.e. a gateway, passing them through). It is enabled for use just like any other module and configuration is pretty basic (or standard), in line with others. modproxy is not just a single module but a collection of them, with each bringing a new set of functionality.
+
+
+Some of these modules are:
+
+- mod_proxy: The main proxy module for Apache that manages connections and redirects them.
+- mod_proxy_http: This module implements the proxy features for HTTP and HTTPS protocols.
+- mod_proxy_ftp: This module does the same but for FTP protocol.
+- mod_proxy_connect: This one is used for SSL tunnelling.
+- mod_proxy_ajp: Used for working with the AJP protocol.
+- mod_proxy_wstunnel: Used for working with web-sockets (i.e. WS and WSS).
+- mod_proxy_balancer: Used for clustering and load-balancing.
+- mod_cache: Used for caching.
+- mod_headers: Used for managing HTTP headers.
+- mod_deflate: Used for compression.
+
+More details on ``mod_proxy``
+http://httpd.apache.org/docs/current/mod/mod_proxy.html
+
+
+
+Installing Modules And Dependencies
+~~~~~~
+
+apt-get install -y libapache2-mod-proxy-html libxml2-dev
+
+
+Configuring Apache To Proxy Connections
+~~~~~
+
+Activiting the module:
+#####
+
+a2enmod
+
+The above command will list of `available` Apache modules.
+
+
+Output example:
+
+``a2enmod``
+Your choices are: access_compat actions alias allowmethods asis auth_basic auth_digest auth_form authn_anon authn_core authn_dbd authn_dbm authn_file authn_socache authnz_ldap authz_core authz_dbd authz_dbm authz_groupfile authz_host authz_owner authz_user autoindex buffer cache cache_disk cache_socache cgi cgid charset_lite data dav dav_fs dav_lock dbd deflate dialup dir dump_io echo env expires ext_filter file_cache filter headers heartbeat heartmonitor include info lbmethod_bybusyness lbmethod_byrequests lbmethod_bytraffic lbmethod_heartbeat ldap log_debug log_forensic lua macro mime mime_magic mpm_event mpm_prefork mpm_worker negotiation proxy proxy_ajp proxy_balancer proxy_connect proxy_express proxy_fcgi proxy_fdpass proxy_ftp proxy_html proxy_http proxy_scgi proxy_wstunnel ratelimit reflector remoteip reqtimeout request rewrite sed session session_cookie session_crypto session_dbd setenvif slotmem_plain slotmem_shm socache_dbm socache_memcache socache_shmcb speling ssl status substitute suexec unique_id userdir usertrack vhost_alias xml2enc
+Which module(s) do you want to enable (wildcards ok)?
+
+Which module(s) do you want to enable (wildcards ok)?
+
+
+Once you are prompted with the choice of modules you desire, you can pass the below line listing the module names:
+
+The list of modules:
+
+proxy proxy_ajp proxy_http rewrite deflate headers proxy_balancer proxy_connect proxy_html
+
+
+Or alternatively, you can run the following commands to enable the modules one by one:
+
+a2enmod proxy
+a2enmod proxy_http
+a2enmod proxy_ajp
+a2enmod rewrite
+a2enmod deflate
+a2enmod headers
+a2enmod proxy_balancer
+a2enmod proxy_connect
+a2enmod proxy_html
+
+
+
+.. Note:: Some modules are likely to be enabled by default. Trying to enable them twice will just ensure that they are active.
+
+
+Modifying The Default Configuration
+######
+
+vi /etc/apache2/sites-enabled/000-default.conf
+
+
+Here, we will be defining a proxy virtual host using mod_virtualhost and mod_proxy together.
+
+Copy-and-paste the below block of configuration, amending it to suit your needs:
+
+::
+
+    <VirtualHost *:*>
+        ProxyPreserveHost On
+
+        # Servers to proxy the connection, or;
+        # List of application servers:
+        # Usage:
+        # ProxyPass / http://[IP Addr.]:[port]/
+        # ProxyPassReverse / http://[IP Addr.]:[port]/
+        # Example: 
+        ProxyPass / http://0.0.0.0:8080/
+        ProxyPassReverse / http://0.0.0.0:8080/
+
+        ServerName localhost
+    </VirtualHost>
+
+
+To know more:
+http://httpd.apache.org/docs/2.2/vhosts/examples.html
+
+
+Enabling Load-Balancing
+~~~~~
+
+
+If you have multiple back-end servers, a good way to distribute the connection when proxying them is to use Apache's load balancing features.
+
+Start editing the virtual-host settings like the previous step, but this time using the below configuration example:
+
+::
+
+    <Proxy balancer://mycluster>
+        # Define back-end servers:
+
+        # Server 1
+        BalancerMember http://0.0.0.0:8080/
+
+        # Server 2
+        BalancerMember http://0.0.0.0:8081/
+    </Proxy>
+
+    <VirtualHost *:*>
+        # Apply VH settings as desired
+        # However, configure ProxyPass argument to
+        # use "mycluster" to balance the load
+
+        ProxyPass / balancer://mycluster
+    </VirtualHost>
+
+---
+
+Example:
+
+Lets say I am running a simplehttpserver:
+
+``python -m SimpleHTTPServer 8500``
+
+and We should be able to access the same:
+
+http://myserver/App1 or http://myserver/App2
+
+::
+
+    cat /etc/apache2/sites-enabled/000-default.conf
+    <VirtualHost *:*>
+        ProxyPreserveHost On
+
+        # Servers to proxy the connection, or;
+        # List of application servers:
+        # Usage:
+        # ProxyPass / http://[IP Addr.]:[port]/
+        # ProxyPassReverse / http://[IP Addr.]:[port]/
+
+        # Example:
+        ProxyPass /App1 http://0.0.0.0:8500
+        ProxyPassReverse /App1 http://0.0.0.0:8500
+
+    # OR
+
+    <Location /App2>
+        ProxyPass  http://localhost:8500
+        ProxyPassReverse http://localhost:8500
+    </Location>
+
+        ServerName localhost
+    </VirtualHost>
+
+
+.. Note::
+As of now this works just of main page, but if I click any other link, its not working.
+
+As for as I know, you need to restart apache2 service after the change in the config file.
+
+``service apache2 restart``
+
+
+----
+
+# A good doc on haproxy.
+
+https://www.tecmint.com/install-haproxy-load-balancer-in-linux/
