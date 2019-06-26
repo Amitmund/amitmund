@@ -95,6 +95,12 @@ Over here I will be making note of all my current understanding in a correct ord
    PERL/perlOneLiner
    PERL/perlJargons
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: API
+
+   PYTHON/apiProgrammingWithFlash
 
 .. toctree::
    :maxdepth: 2
