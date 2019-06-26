@@ -34,6 +34,7 @@ example 1:
         return "Hello World!"
 
     # There should an indent after the if statement, to define the block of the if statement.
+    # Over here we are binding the app to host ip and to the port 5000.
     if __name__ == '__main__':
         app.run(host='0.0.0.0',port=5000)
 
