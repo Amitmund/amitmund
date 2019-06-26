@@ -118,6 +118,7 @@ Over here I will be making note of all my current understanding in a correct ord
 
    GO/introductionToGo
    GO/goJargons
+   GO/apiProgrammingWithFlaskPython
 
 
 .. toctree::
