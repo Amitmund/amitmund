@@ -99,7 +99,7 @@ Over here I will be making note of all my current understanding in a correct ord
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: PYTHON1
+   :caption: PYTHON
 
    PYTHON/introductionToPython
    PYTHON/pythonJargons
