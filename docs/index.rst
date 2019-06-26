@@ -46,6 +46,19 @@ Over here I will be making note of all my current understanding in a correct ord
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: Ansible
+
+   Ansible/ansibleNote1
+   Ansible/ansibleNote2
+   Ansible/ansibleNote3
+   Anisble/ansibleNote4
+   Ansible/ansibleNote5
+   Ansible/ansibleNote6
+  
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: CASSANDRA
 
    CASSANDRA/introductionToCassandra

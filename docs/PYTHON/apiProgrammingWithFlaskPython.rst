@@ -15,7 +15,7 @@ example 1:
 
 ::
 
-    # I am using 4 space for indent, and in few editor the tab don't looks good..
+    # I am using 4 spaces for indent, and in few editor the tab don't looks good..
     from flask import Flask, jsonify, request, Response
 
     # jsonify class: For json.
@@ -51,7 +51,7 @@ example 2:
 
 ::
 
-    # I am using 4 space for indent, and in few editor the tab don't looks good..
+    # I am using 4 spaces for indent, and in few editor the tab don't looks good..
     from flask import Flask, jsonify, request, Response
 
     # jsonify class: For json.
