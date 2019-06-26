@@ -39,7 +39,7 @@ example 1:
         app.run(host='0.0.0.0',port=5000)
 
 .. note:: Above is a quick sample code.
-In this code the application will be listening to the host on port 5000.
+    In this code the application will be listening to the host on port 5000.
 
 
 
@@ -77,5 +77,5 @@ example 2:
         app.run(host='0.0.0.0',port=5000)
 
 .. note:: Above is a quick sample code.
-In this code the application will be listening to the host on port 5000.
+        In this code the application will be listening to the host on port 5000.
 
