@@ -38,7 +38,8 @@ example 1:
     if __name__ == '__main__':
         app.run(host='0.0.0.0',port=5000)
 
-.. note:: Above is a quick sample code.
+.. note::
+    Above is a quick sample code.
     In this code the application will be listening to the host on port 5000.
 
 
@@ -76,6 +77,7 @@ example 2:
     if __name__ == '__main__':
         app.run(host='0.0.0.0',port=5000)
 
-.. note:: Above is a quick sample code.
-        In this code the application will be listening to the host on port 5000.
+.. note:: 
+    Above is a quick sample code.
+    In this code the application will be listening to the host on port 5000.
 
