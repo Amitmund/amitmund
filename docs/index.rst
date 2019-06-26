@@ -3,6 +3,8 @@ Amit Mund
 
 Over here I will be making note of all my current understanding in a correct order, so that it will be easy for all of us to go through.
 
+.. Note:: Please do select master while doing the build.
+
 
 
 .. contents::
@@ -98,17 +100,12 @@ Over here I will be making note of all my current understanding in a correct ord
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: api
-
-   api/apiProgrammingWithPythonFlash
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
    :caption: PYTHON
 
    PYTHON/introductionToPython
    PYTHON/pythonJargons
+   PYTHON/apiProgrammingWithFlaskPython
+
 
 
 .. toctree::
@@ -118,7 +115,6 @@ Over here I will be making note of all my current understanding in a correct ord
 
    GO/introductionToGo
    GO/goJargons
-   GO/apiProgrammingWithFlaskPython
 
 
 .. toctree::
