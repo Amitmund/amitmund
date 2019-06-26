@@ -25,7 +25,7 @@ One example:
     ### for route / #####
 
     @app.route('/')
-    def hello():
+        def hello():
         return "Hello World!"
 
     @app.route(' /books')
