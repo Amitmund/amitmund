@@ -57,8 +57,13 @@ Primary ansible configuration file: ``/etc/ansible/ansible.cfg``
 
 - You can configure your ansible default setting on the above file.
 
+.. note::
+    /etc/ansible/ansible.cfg
 
 Default ansible inventory file: ``/etc/ansible/hosts``
+
+..note::
+    /etc/ansible/hosts
 
 .. note::
     An inventory is a list of hosts that Ansible manages.
@@ -74,4 +79,21 @@ What is bootstraping vs orchestration.
 
 orchestration:
   Orchestration describes automated arrangement, coordination and management of complex computer systems and services.
+
+Inventory file example:
+::
+
+    # This is a comments.
+    green.example.com
+    192.168.1.100
+
+    # Grouping a list of servers.
+    [webservers]
+    webserver1.example.com
+    webserver2.example.com
+    192.168.1.110
+
+    # range of hosts
+    www.[001:006].example.com
+
 
