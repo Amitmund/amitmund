@@ -11,44 +11,48 @@ What is Ansible:
 
 Example Ad-hoc command:
 
-- ansbile localhost -m setup
+::
+    ansbile localhost -m setup
 
 Example ansible-playbook command example:
 
-- ansible-playbook playbook1.yml
+::
+    ansible-playbook playbook1.yml
 
 
 Ansible installation:
+::
 
-- yum list epel-release
-- sudo yum -y install ansible
+    yum list epel-release
+    sudo yum -y install ansible
 
 Example of few of the ansible dependency:
+::
 
-- libtomcrypt
-- libtommath
-- python-cffi
-- python-enum34
-- python-httplib2
-- python-idna
-- python-keyczar
-- python-paramiko
-- python-ply
-- python-pycparser
-- python2-crypto
-- python2-cryptography
-- python2-jmespath
-- sshpass
+    - libtomcrypt
+    - libtommath
+    - python-cffi
+    - python-enum34
+    - python-httplib2
+    - python-idna
+    - python-keyczar
+    - python-paramiko
+    - python-ply
+    - python-pycparser
+    - python2-crypto
+    - python2-cryptography
+    - python2-jmespath
+    - sshpass
 
 Also its a good to have git, as we can manage the version of our ansible playbook.:
+::
 
-- sudo yum -y install git
+    - sudo yum -y install git
 
 --------------
 
 .. note::
     We have ansibe:
-    
     configuration file and ansible inventory file
 
 Ansible configuration file:
@@ -63,6 +67,7 @@ Default ansible inventory file: `/etc/ansible/hosts`
 
 
 An inventory location can be provieded as following:
+
 - Default location: `/etc/ansible/hosts`
 - Can be set in `ansible.cfg`
 - In CLI as `ansible -i <inventory_path>`
