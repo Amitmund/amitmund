@@ -10,17 +10,21 @@ What is Ansible:
 
 
 Example Ad-hoc command:
+
 - ansbile localhost -m setup
 
 Example ansible-playbook command example:
+
 - ansible-playbook playbook1.yml
 
 
 Ansible installation:
+
 - yum list epel-release
 - sudo yum -y install ansible
 
 Example of few of the ansible dependency:
+
 - libtomcrypt
 - libtommath
 - python-cffi
@@ -36,7 +40,8 @@ Example of few of the ansible dependency:
 - python2-jmespath
 - sshpass
 
-Also its a good to have git, as we can manage the version of our ansible playbook.
+Also its a good to have git, as we can manage the version of our ansible playbook.:
+
 - sudo yum -y install git
 
 --------------
