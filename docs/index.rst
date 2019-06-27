@@ -3,7 +3,11 @@ Amit Mund
 
 Over here I will be making note of all my current understanding in a correct order, so that it will be easy for all of us to go through.
 
+
+
 .. Note:: Please do select master while doing the build.
+
+  Also, if you are not able see your changes, please try it once at `incognito` mode.
 
 
 
@@ -54,6 +58,7 @@ Over here I will be making note of all my current understanding in a correct ord
    Anisble/ansibleNote4
    Ansible/ansibleNote5
    Ansible/ansibleNote6
+   Ansible/ansibleQuestions
   
 
 .. toctree::
