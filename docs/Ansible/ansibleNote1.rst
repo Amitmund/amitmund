@@ -47,10 +47,11 @@ Also its a good to have git, as we can manage the version of our ansible playboo
 
     sudo yum -y install git
 
+
 --------------
 
 
-We have ansibe: ``configuration file`` and ``ansible inventory`` file
+We have ``ansibe configuration`` file and ``ansible inventory`` file
 
 Ansible configuration file:
 Primary ansible configuration file: ``/etc/ansible/ansible.cfg``
@@ -62,11 +63,11 @@ Primary ansible configuration file: ``/etc/ansible/ansible.cfg``
 
 Default ansible inventory file: ``/etc/ansible/hosts``
 
-..note::
+.. note::
     /etc/ansible/hosts
 
 .. note::
-    An inventory is a list of hosts that Ansible manages.
+    An ``inventory`` is a list of hosts that Ansible manages.
 
 
 An inventory location can be provieded as following:
