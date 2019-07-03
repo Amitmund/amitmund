@@ -98,3 +98,9 @@ Inventory file example:
     www.[001:006].example.com
 
 
+---------
+
+Ansible Documentations:
+
+- docs.ansible.com
+``ansible-doc -s lineinfile``

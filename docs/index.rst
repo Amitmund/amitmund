@@ -153,6 +153,13 @@ Over here I will be making note of all my current understanding in a correct ord
     GIT/gitQucikCommands
 
 .. toctree::
+    :maxdepth: 2
+    :hidden:
+    :caption: Azure
+
+    azure/chapter1
+
+.. toctree::
   :maxdepth: 2
   :hidden:
   :caption: DEVOPSTOOLS
