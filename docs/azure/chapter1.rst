@@ -1,4 +1,4 @@
-Azure Chapter1
+Azure Chapter 1
 =====
 
 Setting up Azure-cli:
