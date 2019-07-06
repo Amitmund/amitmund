@@ -159,6 +159,12 @@ Over here I will be making note of all my current understanding in a correct ord
 
     azure/chapter1
 
+  .. toctree::
+    :maxdepth: 2
+    :hidden:
+    :caption: prometheus
+
+    prometheus/prometheus_chapter_1
 
   .. toctree::
     :maxdepth: 2
