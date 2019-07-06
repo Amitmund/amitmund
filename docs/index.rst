@@ -155,21 +155,21 @@ Over here I will be making note of all my current understanding in a correct ord
   .. toctree::
     :maxdepth: 2
     :hidden:
-    :caption: Azure
+    :caption: AZURE
 
     azure/chapter1
 
   .. toctree::
     :maxdepth: 2
     :hidden:
-    :caption: prometheus
+    :caption: PROMETHEUS
 
     prometheus/prometheus_chapter_1
 
   .. toctree::
     :maxdepth: 2
     :hidden:
-    :caption: openTracing
+    :caption: OPENTRACING
 
     openTracing/chapter1
 
