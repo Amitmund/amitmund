@@ -68,5 +68,9 @@ tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
 
 #------------------------------------------------------------
 
+Python oracle connector:
+    https://www.geeksforgeeks.org/oracle-database-connection-in-python/
 
+#------------------------------------------------------------
+  
 
