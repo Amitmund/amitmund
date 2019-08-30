@@ -104,3 +104,10 @@ Ansible Documentations:
 
 - docs.ansible.com
 ``ansible-doc -s lineinfile``
+
+------
+
+The following note is not formated, its just for udpate as of now.
+=====
+
+

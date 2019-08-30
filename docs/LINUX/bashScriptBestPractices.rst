@@ -34,3 +34,12 @@ Example:
   agr1=$1
 
 
+
+::
+
+vi session-script
+#!/bin/bash
+ssh-add /path/to/key
+bash -i # or other session starter
+
+ssh-agent session-script
