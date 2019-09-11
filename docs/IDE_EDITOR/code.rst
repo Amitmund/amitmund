@@ -73,3 +73,19 @@ But I have not tested anything on the same much yet.
       }
     ]
   }
+
+
+# New line => Space 
+
+CRTL + J
+
+192.168.98.20
+192.168.98.34
+192.168.98.39
+192.168.98.45
+192.168.98.52
+192.168.98.55
+192.168.98.61
+
+CRTL + J
+
