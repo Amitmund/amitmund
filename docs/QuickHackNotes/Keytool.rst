@@ -5,7 +5,7 @@ Quick notes on java keytool commands
 Example:
 =====
 
-.. codeblock:: Note
+::
 
         Example path:
         $JAVA_HOME/jre/lib/security/cacerts
