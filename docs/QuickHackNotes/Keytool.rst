@@ -19,6 +19,8 @@ Example:
         /a/java64/jdk1.8.0/bin/keytool  -list -v -keystore /a/java64/jdk1.8.0/jre/lib/security/cacerts
 
 
+        After adding hosts based certificate, its working:
+        sudo keytool -import -alias amund3 -file ~/cert/hostsBased.cer -keystore ./cacerts
 
 
 
